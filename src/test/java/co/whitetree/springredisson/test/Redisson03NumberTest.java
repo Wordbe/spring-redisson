@@ -9,7 +9,7 @@ import reactor.test.StepVerifier;
 
 import java.time.Duration;
 
-public class NumberTest extends BaseTest {
+public class Redisson03NumberTest extends BaseTest {
     @Test
     public void keyValueIncrease() {
         RAtomicLongReactive atomicLong = client.getAtomicLong("user:1:visit");

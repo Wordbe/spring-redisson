@@ -10,7 +10,7 @@ import reactor.test.StepVerifier;
 
 import java.util.Arrays;
 
-public class KeyValueObjectTest extends BaseTest {
+public class Redisson2KeyValueObjectTest extends BaseTest {
 
     @Test
     public void keyValueObject() {

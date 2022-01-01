@@ -1,4 +1,4 @@
-package co.whitetree.springredisson.test.dto;
+package co.whitetree.springredisson.test;
 
 import co.whitetree.springredisson.test.config.BaseTest;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,7 @@ import org.redisson.client.codec.StringCodec;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
 
-public class BucketAsMapTest extends BaseTest {
+public class Redisson04BucketAsMapTest extends BaseTest {
 
     // user:1:name
     // user:2:name
