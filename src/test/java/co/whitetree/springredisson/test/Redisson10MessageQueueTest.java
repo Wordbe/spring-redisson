@@ -26,7 +26,7 @@ public class Redisson10MessageQueueTest extends BaseTest {
                 .doOnNext(i -> System.out.println("consumer1: " + i))
                 .doOnError(System.out::println)
                 .subscribe();
-        sleep(600_000);
+        sleep(600_000); // 600,000 을 코드상 600_000 으로 가독성 좋게 표기
     }
 
     @Test
