@@ -35,24 +35,24 @@ public class Redisson09ListQueueStackTest extends BaseTest {
                 .verifyComplete();
     }
 
-    @Test
-    public void list2() {
-        // 레디스에서 number-input 요소 확인하기
-        // lrange number-input 0 -1
-        RListReactive<Long> list = client.getList("number-input", LongCodec.INSTANCE);
-
-        // 한 번에 보내기
-        // 순서를 정해서 보내줄 수 있다.
-        List<Long> longList = LongStream.rangeClosed(1, 10)
-                .boxed()
-                .collect(Collectors.toList());
-
-        StepVerifier.create(list.addAll(longList).then())
-                .verifyComplete();
-        StepVerifier.create(list.size())
-                .expectNext(10)
-                .verifyComplete();
-    }
+//    @Test
+//    public void list2() {
+//        // 레디스에서 number-input 요소 확인하기
+//        // lrange number-input 0 -1
+//        RListReactive<Long> list = client.getList("number-input", LongCodec.INSTANCE);
+//
+//        // 한 번에 보내기
+//        // 순서를 정해서 보내줄 수 있다.
+//        List<Long> longList = LongStream.rangeClosed(1, 10)
+//                .boxed()
+//                .collect(Collectors.toList());
+//
+//        StepVerifier.create(list.addAll(longList).then())
+//                .verifyComplete();
+//        StepVerifier.create(list.size())
+//                .expectNext(10)
+//                .verifyComplete();
+//    }
 
     @Test
     public void queue() {
