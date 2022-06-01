@@ -24,7 +24,7 @@ public class WeatherService {
     /**
      * weather 해시에 key 1~5 는 10초마다 지속적으로 업데이트 됨
      */
-    @Scheduled(fixedRate = 10_000)
+//    @Scheduled(fixedRate = 10_000)
     public void update() {
         System.out.println("updating weather... for zip 1~5");
         IntStream.rangeClosed(1, 5)

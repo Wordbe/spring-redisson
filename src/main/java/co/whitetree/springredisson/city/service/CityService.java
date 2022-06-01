@@ -45,7 +45,7 @@ public class CityService {
                 .onErrorResume(ex -> cityClient.getCity(zipCode));
     }
 
-    @Scheduled(fixedRate = 10_000)
+//    @Scheduled(fixedRate = 10_000)
     public void updateCity() {
         System.out.println("updating cities...");
         cityClient.getAll()

@@ -21,7 +21,7 @@ public class FibService {
         System.out.println("clearing hash key: " + index);
     }
 
-    @Scheduled(fixedRate = 10_000) // 10 sec
+//    @Scheduled(fixedRate = 10_000) // 10 sec
     @CacheEvict(value = "math:fib", allEntries = true)
     public void clearCache() {
         System.out.println("clearing all math:fib keys");
