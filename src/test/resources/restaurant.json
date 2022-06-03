@@ -1,0 +1,34 @@
+[
+  {
+    "id": "AVwcucMOIN2L1WUfoM6V",
+    "city": "Dallas",
+    "latitude": 32.78136,
+    "longitude": -96.80539,
+    "name": "Sonic",
+    "zip": 75228
+  },
+  {
+    "id": "AVwddTYzByjofQCxpU2W",
+    "city": "Dallas",
+    "latitude": 32.82635,
+    "longitude": -96.87129,
+    "name": "McDonal's",
+    "zip": 75247
+  },
+  {
+    "id": "AVwdXVJ6_7pvs4fz5Hny",
+    "city": "Dallas",
+    "latitude": 32.647333,
+    "longitude": -96.943384,
+    "name": "McDonald's2",
+    "zip": 75249
+  },
+  {
+    "id": "AVwdAGDNkufwRAb51Rtz",
+    "city": "Dallas",
+    "latitude": 32.805002,
+    "longitude": -96.81357,
+    "name": "7-Eleven",
+    "zip": 75219
+  }
+]
